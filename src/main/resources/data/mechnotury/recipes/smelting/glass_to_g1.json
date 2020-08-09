@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:glass"
+  },
+  "result": "mechnotury:grade1_coarse_silicon",
+  "experience": 1,
+  "cookingtime": 1800
+}

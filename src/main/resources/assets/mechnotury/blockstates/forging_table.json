@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up":{"model": "mechnotury:block/forging_table"},
+    "facing=down":{"model": "mechnotury:block/forging_table"},
+    "facing=north":{"model": "mechnotury:block/forging_table"},
+    "facing=south":{"model": "mechnotury:block/forging_table","y": 180},
+    "facing=west":{"model": "mechnotury:block/forging_table","y": -90},
+    "facing=east":{"model": "mechnotury:block/forging_table","y": 90}
+  }
+}

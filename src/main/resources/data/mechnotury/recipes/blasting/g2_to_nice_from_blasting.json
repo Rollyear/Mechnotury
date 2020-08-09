@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "mechnotury:grade2_coarse_silicon"
+  },
+  "result": "mechnotury:nice_silicon",
+  "experience": 1,
+  "cookingtime": 1200
+}

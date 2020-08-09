@@ -1,0 +1,36 @@
+{
+  "item.mechnotury.steel_ingot":"钢锭",
+  "item.mechnotury.grade1_coarse_silicon": "一级粗硅",
+  "item.mechnotury.grade2_coarse_silicon": "二级粗硅",
+  "item.mechnotury.nice_silicon": "精硅",
+  "item.mechnotury.moissanite": "碳化硅",
+
+  "item.mechnotury.cutting_welding_gun": "切焊二合一工具枪",
+  "item.mechnotury.steel_hammer": "钢锤",
+  "item.mechnotury.welder_mask_down":"焊工面罩A",
+  "item.mechnotury.welder_mask_up":"焊工面罩B",
+  "item.mechnotury.initial_space_dome": "初级空间穹顶",
+  "item.mechnotury.medium_space_dome": "中级空间穹顶",
+  "item.mechnotury.the_greatest_space_dome": "高级空间穹顶",
+
+  "item.mechnotury.miracuenty_bucket": "幻晶桶",
+
+  "item.mechnotury.unit_empty": "空单元",
+  "item.mechnotury.unit_reaction": "反应单元",
+  "item.mechnotury.unit_energy": "能量单元",
+  "item.mechnotury.unit_storage": "储存单元",
+
+  "block.mechnotury.board_processing": "处理模块",
+  "block.mechnotury.board_storage": "储存模块",
+
+  "block.mechnotury.steel_block":"钢块",
+  "block.mechnotury.silicon_block" :"硅块",
+  "block.mechnotury.energetic_flower": "充满能量的花",
+  "block.mechnotury.moissanite_ore": "穆桑石",
+
+  "block.mechnotury.forging_table" : "工匠铸造台",
+
+  "itemGroup.mechnotury": "机械纪元",
+  "itemGroup.basic_item_group": "机械纪元基础物品",
+  "itemGroup.tool_group": "机械纪元工具"
+}

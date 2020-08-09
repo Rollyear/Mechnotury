@@ -1,0 +1,36 @@
+{
+  "item.mechanical_dimension.steel_ingot":"鋼錠",
+  "item.mechanical_dimension.grade1_coarse_silicon": "一級粗矽",
+  "item.mechanical_dimension.grade2_coarse_silicon": "二級粗矽",
+  "item.mechanical_dimension.nice_silicon": "精矽",
+  "item.mechanical_dimension.moissanite": "穆桑寶石",
+
+  "item.mechanical_dimension.cutting_welding_gun": "切焊二合一工具槍",
+  "item.mechanical_dimension.steel_hammer": "鋼錘",
+  "item.mechanical.dimension.welder_mask_down":"焊工面罩A",
+  "item.mechanical.dimension.welder_mask_up":"焊工面罩B",
+  "item.mechanical_dimension.initial_space_dome": "初級空間穹頂",
+  "item.mechanical_dimension.medium_space_dome": "中級空間穹頂",
+  "item.mechanical_dimension.the_greatest_space_dome": "高級空間穹頂",
+
+  "item.mechanical_dimension.miracuenty_bucket": "幻晶桶",
+
+  "item.mechanical_dimension.unit_empty": "空單元",
+  "item.mechanical_dimension.unit_reaction": "反應單元",
+  "item.mechanical_dimension.unit_energy": "能量單元",
+  "item.mechanical_dimension.unit_storage": "儲存單元",
+
+  "block.mechanical_dimension.board_processing": "處理模塊",
+  "block.mechanical_dimension.board_storage": "儲存模塊",
+
+  "block.mechanical_dimension.steel_block":"鋼塊",
+  "block.mechanical_dimension.silicon_block" :"矽塊",
+  "block.mechanical_dimension.energetic_flower": "充滿能量的花",
+  "block.mechanical_dimension.moissanite_ore": "穆桑石",
+
+  "block.mechanical_dimension.forging_table" : "工匠鑄造台",
+
+  "itemGroup.mechanical_dimension": "機械紀元",
+  "itemGroup.basic_item_group":"機械紀元基礎物品",
+  "itemGroup.tool_group": "機械紀元工具"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mechnotury:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "mechnotury:steel_block"
+  }
+}

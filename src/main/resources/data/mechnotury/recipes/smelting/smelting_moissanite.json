@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mechnotury:moissanite_ore"
+  },
+  "result": "mechnotury:moissanite",
+  "experience": 1,
+  "cookingtime": 2400
+}

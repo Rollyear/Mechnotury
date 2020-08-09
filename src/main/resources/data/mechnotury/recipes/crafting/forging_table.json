@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " i ",
+    "iii"
+  ],
+  "key": {
+    "I": {
+      "item": "mechnotury:steel_block"
+    },
+    "i": {
+      "item": "mechnotury:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "mechnotury:forging_table"
+  }
+}

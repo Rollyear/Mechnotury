@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IsI",
+    " s "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "mechnotury:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "mechnotury:steel_hammer"
+  }
+}
