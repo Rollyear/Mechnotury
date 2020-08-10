@@ -7,8 +7,7 @@
 
   "item.mechanical_dimension.cutting_welding_gun": "切焊二合一工具槍",
   "item.mechanical_dimension.steel_hammer": "鋼錘",
-  "item.mechanical.dimension.welder_mask_down":"焊工面罩A",
-  "item.mechanical.dimension.welder_mask_up":"焊工面罩B",
+  "item.mechanical.dimension.welder_mask":"焊工面罩",
   "item.mechanical_dimension.initial_space_dome": "初級空間穹頂",
   "item.mechanical_dimension.medium_space_dome": "中級空間穹頂",
   "item.mechanical_dimension.the_greatest_space_dome": "高級空間穹頂",
