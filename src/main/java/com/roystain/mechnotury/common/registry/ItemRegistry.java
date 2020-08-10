@@ -21,28 +21,21 @@ public class ItemRegistry {
                   //Block Items
     //Basic Blocks
     public static RegistryObject<Item> steelBlock = ITEMS.register("steel_block", () -> {
-        assert BlockRegistry.steelBlock.get() != null;
         return new BlockItem(BlockRegistry.steelBlock.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)); });
     public static RegistryObject<Item> siliconBlock =ITEMS.register("silicon_block",() ->{
-        assert BlockRegistry.siliconBlock.get() != null;
         return new BlockItem(BlockRegistry.siliconBlock.get(),new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)); });
     public static RegistryObject<Item> moissaniteOre =ITEMS.register("moissanite_ore",() ->{
-        assert BlockRegistry.moissaniteOre.get() != null;
         return new BlockItem(BlockRegistry.moissaniteOre.get(),new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)); });
     //others
     public static RegistryObject<Item> energeticFlower =ITEMS.register("energetic_flower",() ->{
-        assert BlockRegistry.energeticFlower.get() != null;
         return new BlockItem(BlockRegistry.energeticFlower.get(),new Item.Properties().group(ItemGroup.DECORATIONS)); });
     //Machine
     public static RegistryObject<Item> forgingTable =ITEMS.register("forging_table",() ->{
-        assert BlockRegistry.forgingTable.get() != null;
         return new BlockItem(BlockRegistry.forgingTable.get(),new Item.Properties().group(Tool.itemGroup)); });
     //Material
     public static RegistryObject<Item> boardProcessing =ITEMS.register("board_processing",() ->{
-        assert BlockRegistry.boardProcessing.get() != null;
         return new BlockItem(BlockRegistry.boardProcessing.get(),new Item.Properties().group(BasicItem.itemGroup)); });
     public static RegistryObject<Item> boardStorage =ITEMS.register("board_storage",() ->{
-        assert BlockRegistry.boardStorage.get() != null;
         return new BlockItem(BlockRegistry.boardStorage.get(),new Item.Properties().group(BasicItem.itemGroup)); });
                  //Items
     //Basic Items
@@ -58,8 +51,7 @@ public class ItemRegistry {
     public static RegistryObject<Item> unitStorage = ITEMS.register("unit_storage", UnitStorage::new);
     //Tools and Weapons
     public static RegistryObject<Item> steelHammer = ITEMS.register("steel_hammer", SteelHammer::new);
-    public static RegistryObject<Item> welderMaskDown = ITEMS.register("welder_mask_down", WelderMaskDown::new);
-    public static RegistryObject<Item> welderMaskUp = ITEMS.register("welder_mask_up", WelderMaskUp::new);
+    public static RegistryObject<Item> welderMask = ITEMS.register("welder_mask", WelderMask::new);
     public static RegistryObject<Item> cuttingWeldingGun = ITEMS.register("cutting_welding_gun", CuttingWeldingGun::new);
     public static RegistryObject<Item> initialSpaceDome = ITEMS.register("initial_space_dome", InitialSpaceDome::new);
     public static RegistryObject<Item> mediumSpaceDomeSpaceDome = ITEMS.register("medium_space_dome", MediumSpaceDome::new);
