@@ -11,6 +11,7 @@
   "item.mechnotury.initial_space_dome": "初级空间穹顶",
   "item.mechnotury.medium_space_dome": "中级空间穹顶",
   "item.mechnotury.the_greatest_space_dome": "高级空间穹顶",
+  "item.mechnotury.lexicon": "机械纪元辞典",
 
   "item.mechnotury.unit_empty": "空单元",
   "item.mechnotury.unit_reaction": "反应单元",
@@ -35,6 +36,10 @@
   "advancements.mechnotury.tech.root.description":"机械纪元,一个充满奇迹的地方",
   "advancements.mechnotury.tech.smelt_steel.title": "炼钢术师",
   "advancements.mechnotury.tech.smelt_steel.description": "冶炼出一块钢锭",
-  "advancements.mechnotury.tech.forging_table.title": "這是!鑄造台!",
-  "advancements.mechnotury.tech.forging_table.description": "製作一個工匠鑄造台"
+  "advancements.mechnotury.tech.forging_table.title": "这是!铸造台!",
+  "advancements.mechnotury.tech.forging_table.description": "制作一个工匠铸造台",
+
+  "curios.identifier.bracelet":"手环",
+
+  "mechnotury.landing":"你能在机械纪元里找到许多有趣的东西。祝你玩的开心！"
 }
