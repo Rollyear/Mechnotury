@@ -80,6 +80,9 @@ dependencies {
 
     compileOnly fg.deobf("top.theillusivec4.curios:curios:FORGE-1.15.2-2.0.2.6:api")
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios:FORGE-1.15.2-2.0.2.6")
+
+    compileOnly fg.deobf("mezz.jei:jei-1.15.2:6.0.2.12:api")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.15.2:6.0.2.12")
 }
 repositories {
     maven {
@@ -89,6 +92,14 @@ repositories {
     maven {
         name "curios"
         url = "https://maven.theillusivec4.top/"
+    }
+    maven {
+        name = "Progwml6 maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        name = "ModMaven"
+        url = "https://modmaven.k-4u.nl"
     }
     mavenLocal()
 }
