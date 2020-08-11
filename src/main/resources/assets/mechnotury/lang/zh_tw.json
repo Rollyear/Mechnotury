@@ -12,8 +12,6 @@
   "item.mechanical_dimension.medium_space_dome": "中級空間穹頂",
   "item.mechanical_dimension.the_greatest_space_dome": "高級空間穹頂",
 
-  "item.mechanical_dimension.miracuenty_bucket": "幻晶桶",
-
   "item.mechanical_dimension.unit_empty": "空單元",
   "item.mechanical_dimension.unit_reaction": "反應單元",
   "item.mechanical_dimension.unit_energy": "能量單元",
@@ -31,5 +29,10 @@
 
   "itemGroup.mechanical_dimension": "機械紀元",
   "itemGroup.basic_item_group":"機械紀元基礎物品",
-  "itemGroup.tool_group": "機械紀元工具"
+  "itemGroup.tool_group": "機械紀元工具",
+
+  "advancements.mechnotury.tech.root.title": "機械紀元",
+  "advancements.mechnotury.tech.root.description":"機械紀元,一個充滿奇蹟的地方",
+  "advancements.mechnotury.tech.smelt_steel.title": "煉鋼術師",
+  "advancements.mechnotury.tech.smelt_steel.description": "冶煉出一塊鋼錠"
 }

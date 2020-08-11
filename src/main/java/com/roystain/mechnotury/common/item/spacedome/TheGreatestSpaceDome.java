@@ -1,4 +1,4 @@
-package com.roystain.mechnotury.common.item.tools;
+package com.roystain.mechnotury.common.item.spacedome;
 
 import com.roystain.mechnotury.common.group.Tool;
 import net.minecraft.item.Item;

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mechnotury:initial_space_dome"
+    },
+    "title": {
+      "translate": "advancements.mechnotury.tech.root.title"
+    },
+    "description": {
+      "translate": "advancements.mechnotury.tech.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "hidden": false,
+    "announce_to_chat": false,
+    "background": "mechnotury:textures/gui/advancements/background.png"
+  },
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:location"
+    }
+  }
+}

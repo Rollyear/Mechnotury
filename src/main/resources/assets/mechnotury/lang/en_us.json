@@ -12,8 +12,6 @@
   "item.mechnotury.medium_space_dome": "Medium Space Dome",
   "item.mechnotury.the_greatest_space_dome": "The Greatest Space Dome",
 
-  "item.mechnotury.miracuenty_bucket": "Miracuenty Bucket",
-
   "item.mechnotury.unit_empty": "Empty Unit",
   "item.mechnotury.unit_reaction": "Reaction Unit",
   "item.mechnotury.unit_energy": "Energy Unit",
@@ -31,5 +29,12 @@
 
   "itemGroup.mechnotury": "Mechnotury",
   "itemGroup.basic_item_group":"Mechnotury's Basic Items",
-  "itemGroup.tool_group": "Mechnotury's Tools"
+  "itemGroup.tool_group": "Mechnotury's Tools",
+
+  "advancements.mechnotury.tech.root.title": "Mechnotury",
+  "advancements.mechnotury.tech.root.description":"Mechnotury，a place filled with Miracles",
+  "advancements.mechnotury.tech.smelt_steel.title": "Metal Smith",
+  "advancements.mechnotury.tech.smelt_steel.description": "Smelt a steel ingot",
+  "advancements.mechnotury.tech.forging_table.title": "Oh!It's a forging table!",
+  "advancements.mechnotury.tech.forging_table.description": "Get a forging table"
 }

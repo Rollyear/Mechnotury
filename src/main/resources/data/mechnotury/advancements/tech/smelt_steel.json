@@ -1,0 +1,35 @@
+{
+  "parent": "mechnotury:tech/root",
+  "display": {
+    "icon": {
+      "item": "mechnotury:steel_ingot"
+    },
+    "title": {
+      "translate": "advancements.mechnotury.tech.smelt_steel.title"
+    },
+    "description": {
+      "translate": "advancements.mechnotury.tech.smelt_steel.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mechnotury:steel_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "steel"
+    ]
+  ]
+}

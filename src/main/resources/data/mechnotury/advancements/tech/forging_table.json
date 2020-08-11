@@ -1,0 +1,35 @@
+{
+  "parent": "mechnotury:tech/root",
+  "display": {
+    "icon": {
+      "item": "mechnotury:forging_table"
+    },
+    "title": {
+      "translate": "advancements.mechnotury.tech.forging_table.title"
+    },
+    "description": {
+      "translate": "advancements.mechnotury.tech.forging_table.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "forging_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mechnotury:forging_table"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "forging_table"
+    ]
+  ]
+}

@@ -7,9 +7,11 @@ import com.roystain.mechnotury.common.item.material.UnitEmpty;
 import com.roystain.mechnotury.common.item.material.UnitEnergy;
 import com.roystain.mechnotury.common.item.material.UnitReaction;
 import com.roystain.mechnotury.common.item.material.UnitStorage;
+import com.roystain.mechnotury.common.item.spacedome.InitialSpaceDome;
+import com.roystain.mechnotury.common.item.spacedome.MediumSpaceDome;
+import com.roystain.mechnotury.common.item.spacedome.TheGreatestSpaceDome;
 import com.roystain.mechnotury.common.item.tools.*;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
@@ -20,23 +22,16 @@ public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, "mechnotury");
                   //Block Items
     //Basic Blocks
-    public static RegistryObject<Item> steelBlock = ITEMS.register("steel_block", () -> {
-        return new BlockItem(BlockRegistry.steelBlock.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)); });
-    public static RegistryObject<Item> siliconBlock =ITEMS.register("silicon_block",() ->{
-        return new BlockItem(BlockRegistry.siliconBlock.get(),new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)); });
-    public static RegistryObject<Item> moissaniteOre =ITEMS.register("moissanite_ore",() ->{
-        return new BlockItem(BlockRegistry.moissaniteOre.get(),new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)); });
+    public static RegistryObject<Item> steelBlock = ITEMS.register("steel_block", () -> new BlockItem(BlockRegistry.steelBlock.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static RegistryObject<Item> siliconBlock =ITEMS.register("silicon_block",() -> new BlockItem(BlockRegistry.siliconBlock.get(),new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static RegistryObject<Item> moissaniteOre =ITEMS.register("moissanite_ore",() -> new BlockItem(BlockRegistry.moissaniteOre.get(),new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
     //others
-    public static RegistryObject<Item> energeticFlower =ITEMS.register("energetic_flower",() ->{
-        return new BlockItem(BlockRegistry.energeticFlower.get(),new Item.Properties().group(ItemGroup.DECORATIONS)); });
+    public static RegistryObject<Item> energeticFlower =ITEMS.register("energetic_flower",() -> new BlockItem(BlockRegistry.energeticFlower.get(),new Item.Properties().group(ItemGroup.DECORATIONS)));
     //Machine
-    public static RegistryObject<Item> forgingTable =ITEMS.register("forging_table",() ->{
-        return new BlockItem(BlockRegistry.forgingTable.get(),new Item.Properties().group(Tool.itemGroup)); });
+    public static RegistryObject<Item> forgingTable =ITEMS.register("forging_table",() -> new BlockItem(BlockRegistry.forgingTable.get(),new Item.Properties().group(Tool.itemGroup)));
     //Material
-    public static RegistryObject<Item> boardProcessing =ITEMS.register("board_processing",() ->{
-        return new BlockItem(BlockRegistry.boardProcessing.get(),new Item.Properties().group(BasicItem.itemGroup)); });
-    public static RegistryObject<Item> boardStorage =ITEMS.register("board_storage",() ->{
-        return new BlockItem(BlockRegistry.boardStorage.get(),new Item.Properties().group(BasicItem.itemGroup)); });
+    public static RegistryObject<Item> boardProcessing =ITEMS.register("board_processing",() -> new BlockItem(BlockRegistry.boardProcessing.get(),new Item.Properties().group(BasicItem.itemGroup)));
+    public static RegistryObject<Item> boardStorage =ITEMS.register("board_storage",() -> new BlockItem(BlockRegistry.boardStorage.get(),new Item.Properties().group(BasicItem.itemGroup)));
                  //Items
     //Basic Items
     public static RegistryObject<Item> steelIngot = ITEMS.register("steel_ingot", SteelIngot::new);
