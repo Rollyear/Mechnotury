@@ -1,5 +1,6 @@
 buildscript {
     repositories {
+        mavenLocal()
         maven { url = 'https://files.minecraftforge.net/maven' }
         jcenter()
         mavenCentral()
@@ -27,12 +28,15 @@ minecraft {
 			
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
-			
-            mods {
-                mechnotury {
-                    source sourceSets.main
+
+            ideaModule "${project.name}.main"
+
+            environment 'MOD_CLASSES', "${project.file("out/production/resources").canonicalPath};${project.file("out/production/classes").canonicalPath}"
+            /*mods {
+                main {
+                    sources sourceSets.main
                 }
-            }
+            }*/
         }
 
         server {
@@ -40,12 +44,15 @@ minecraft {
 			
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
-			
-            mods {
+
+            ideaModule "${project.name}.main"
+
+            environment 'MOD_CLASSES', "${project.file("out/production/resources").canonicalPath};${project.file("out/production/classes").canonicalPath}"
+            /*mods {
                 mechnotury {
                     source sourceSets.main
                 }
-            }
+            }*/
         }
 
         data {
@@ -67,6 +74,23 @@ minecraft {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.15.2-31.2.0'
+
+    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.15.2-1.2-35.2:api")
+    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.15.2-1.2-35.2")
+
+    compileOnly fg.deobf("top.theillusivec4.curios:curios:FORGE-1.15.2-2.0.2.6:api")
+    runtimeOnly fg.deobf("top.theillusivec4.curios:curios:FORGE-1.15.2-2.0.2.6")
+}
+repositories {
+    maven {
+        name "patchouli"
+        url 'https://maven.blamejared.com'
+    }
+    maven {
+        name "curios"
+        url = "https://maven.theillusivec4.top/"
+    }
+    mavenLocal()
 }
 jar {
     manifest {
@@ -81,7 +105,7 @@ jar {
         ])
     }
 }
-jar.finalizedBy('reobfJar') 
+/*jar.finalizedBy('reobfJar')
 publishing {
     publications {
         mavenJava(MavenPublication) {
@@ -93,4 +117,4 @@ publishing {
             url "file:///${project.projectDir}/mcmodsrepo"
         }
     }
-}
+}*/
