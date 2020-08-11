@@ -1,5 +1,5 @@
 {
-  "parent": "mechnotury:tech/smelt_steel",
+  "parent": "mechnotury:tech/root",
   "display": {
     "icon": {
       "item": "mechnotury:steel_ingot"

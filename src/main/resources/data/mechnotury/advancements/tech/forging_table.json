@@ -1,5 +1,5 @@
 {
-  "parent": "mechnotury:tech/root",
+  "parent": "mechnotury:tech/smelt_steel",
   "display": {
     "icon": {
       "item": "mechnotury:forging_table"
