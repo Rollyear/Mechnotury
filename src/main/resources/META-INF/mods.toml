@@ -1,11 +1,12 @@
 modLoader="javafml"
 loaderVersion="[31,)"
-issueTrackerURL="https://github.com/Rollyear"
+issueTrackerURL="https://github.com/Rollyear/Mechnotury/issue"
+updateJSONURL="https://github.com/Rollyear/Mechnotury"
+
 [[mods]]
 modId="mechnotury"
 version="1.0"
 displayName="Mechnotury"
-updateJSONURL="https://github.com/Rollyear"
 logoFile="logo.png"
 credits="Roystain.R,Illusion"
 authors="Roystain.R,Illusion"
@@ -13,7 +14,8 @@ description='''
 你能在机械纪元里找到许多有趣的东西。祝你玩的开心！
 You can find tons of interesting things in Mechnotury.Hope you enjoy it!
 '''
-[[dependencies.mechnoturyn]]
+
+[[dependencies.mechnotury]]
     modId="forge"
     mandatory=true
     versionRange="[28,)"
