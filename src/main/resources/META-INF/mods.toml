@@ -16,9 +16,15 @@ You can find tons of interesting things in Mechnotury.Hope you enjoy it!
 '''
 
 [[dependencies.mechnotury]]
-    modId="forge"
+    modId="patchouli"
     mandatory=true
-    versionRange="[28,)"
+    versionRange="[1.15.2-1.2-35.2,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mechnotury]]
+    modId="curios"
+    mandatory=true
+    versionRange="[FORGE-1.15.2-2.0.2.6,)"
     ordering="NONE"
     side="BOTH"
 
