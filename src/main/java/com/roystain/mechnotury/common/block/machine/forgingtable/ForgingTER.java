@@ -12,8 +12,8 @@ import net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher;
 import net.minecraft.item.ItemStack;
 
 
-public class ForgingTer extends TileEntityRenderer<ForgingTableTileEntity> {
-    public ForgingTer(TileEntityRendererDispatcher rendererDispatcherIn) {
+public class ForgingTER extends TileEntityRenderer<ForgingTableTileEntity> {
+    public ForgingTER(TileEntityRendererDispatcher rendererDispatcherIn) {
         super(rendererDispatcherIn);
     }
     @Override
