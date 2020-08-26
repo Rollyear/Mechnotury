@@ -60,7 +60,8 @@ public class ForgingTable extends Block {
     }
     //Put and Pop Item
     @Override
-    public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
+    public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos,
+                                             PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
         if (!worldIn.isRemote && handIn == Hand.MAIN_HAND) {
             ForgingTableTileEntity tileEntity = (ForgingTableTileEntity) Objects.requireNonNull(worldIn.getTileEntity(pos));
             if (player.getItemStackFromSlot(EquipmentSlotType.MAINHAND).isEmpty()) {

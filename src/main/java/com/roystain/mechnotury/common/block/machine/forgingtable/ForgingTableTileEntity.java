@@ -26,13 +26,15 @@ public class ForgingTableTileEntity extends TileEntity {
         ItemStack result = itemStack.copy();
         itemStack = ItemStack.EMPTY;
         markDirty();
-        Objects.requireNonNull(world).notifyBlockUpdate(this.pos, this.getBlockState(), this.getBlockState(), Constants.BlockFlags.BLOCK_UPDATE);
+        Objects.requireNonNull(world).notifyBlockUpdate(this.pos, this.getBlockState(),
+                this.getBlockState(), Constants.BlockFlags.BLOCK_UPDATE);
         return result;
     }
     public void popItemStack(ItemStack itemStack) {
         this.itemStack = itemStack.copy();
         markDirty();
-        Objects.requireNonNull(world).notifyBlockUpdate(this.pos, this.getBlockState(), this.getBlockState(), Constants.BlockFlags.BLOCK_UPDATE);
+        Objects.requireNonNull(world).notifyBlockUpdate(this.pos, this.getBlockState(),
+                this.getBlockState(), Constants.BlockFlags.BLOCK_UPDATE);
     }
     @Nullable
     @Override

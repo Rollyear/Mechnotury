@@ -11,7 +11,6 @@ import net.minecraft.client.renderer.tileentity.TileEntityRenderer;
 import net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher;
 import net.minecraft.item.ItemStack;
 
-
 public class ForgingTER extends TileEntityRenderer<ForgingTableTileEntity> {
     public ForgingTER(TileEntityRendererDispatcher rendererDispatcherIn) {
         super(rendererDispatcherIn);
@@ -25,7 +24,8 @@ public class ForgingTER extends TileEntityRenderer<ForgingTableTileEntity> {
         ItemRenderer itemRenderer = Minecraft.getInstance().getItemRenderer();
         ItemStack stack = tileEntityIn.getItemStack();
         IBakedModel ibakedmodel = itemRenderer.getItemModelWithOverrides(stack, tileEntityIn.getWorld(), null);
-        itemRenderer.renderItem(stack, ItemCameraTransforms.TransformType.FIXED, true, matrixStackIn, bufferIn, combinedLightIn, combinedOverlayIn, ibakedmodel);
+        itemRenderer.renderItem(stack, ItemCameraTransforms.TransformType.FIXED,
+                true, matrixStackIn, bufferIn, combinedLightIn, combinedOverlayIn, ibakedmodel);
         matrixStackIn.pop();
     }
 }
