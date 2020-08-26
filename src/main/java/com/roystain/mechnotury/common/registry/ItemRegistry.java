@@ -3,10 +3,7 @@ package com.roystain.mechnotury.common.registry;
 import com.roystain.mechnotury.common.group.BasicItem;
 import com.roystain.mechnotury.common.group.Tool;
 import com.roystain.mechnotury.common.item.basicitem.*;
-import com.roystain.mechnotury.common.item.material.UnitEmpty;
-import com.roystain.mechnotury.common.item.material.UnitEnergy;
-import com.roystain.mechnotury.common.item.material.UnitReaction;
-import com.roystain.mechnotury.common.item.material.UnitStorage;
+import com.roystain.mechnotury.common.item.material.*;
 import com.roystain.mechnotury.common.item.spacedome.InitialSpaceDome;
 import com.roystain.mechnotury.common.item.spacedome.MediumSpaceDome;
 import com.roystain.mechnotury.common.item.spacedome.TheGreatestSpaceDome;
@@ -44,6 +41,8 @@ public class ItemRegistry {
     public static RegistryObject<Item> unitEnergy = ITEMS.register("unit_energy", UnitEnergy::new);
     public static RegistryObject<Item> unitReaction = ITEMS.register("unit_reaction", UnitReaction::new);
     public static RegistryObject<Item> unitStorage = ITEMS.register("unit_storage", UnitStorage::new);
+    public static RegistryObject<Item> steelSheet = ITEMS.register("steel_sheet", SteelSheet::new);
+    public static RegistryObject<Item> siliconSheet = ITEMS.register("silicon_sheet", SiliconSheet::new);
     //Tools and Weapons
     public static RegistryObject<Item> steelHammer = ITEMS.register("steel_hammer", SteelHammer::new);
     public static RegistryObject<Item> welderMask = ITEMS.register("welder_mask", WelderMask::new);

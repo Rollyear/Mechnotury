@@ -15,4 +15,5 @@ public class SiliconBlock extends Block {
                 .sound(SoundType.METAL)
         );
     }
+    //Height State
 }

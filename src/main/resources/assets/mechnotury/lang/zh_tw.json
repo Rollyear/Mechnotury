@@ -11,12 +11,15 @@
   "item.mechnotury.initial_space_dome": "初級空間穹頂",
   "item.mechnotury.medium_space_dome": "中級空間穹頂",
   "item.mechnotury.the_greatest_space_dome": "高級空間穹頂",
-  "item.mechnotury.lexicon":"機械紀元辭典,",
+  "item.mechnotury.lexicon":"機械紀元辭典",
 
   "item.mechnotury.unit_empty": "空單元",
   "item.mechnotury.unit_reaction": "反應單元",
   "item.mechnotury.unit_energy": "能量單元",
   "item.mechnotury.unit_storage": "儲存單元",
+
+  "item.mechnotury.steel_sheet": "鋼板",
+  "item.mechnotury.silicon_sheet": "矽板",
 
   "block.mechnotury.board_processing": "處理模塊",
   "block.mechnotury.board_storage": "儲存模塊",

@@ -18,6 +18,9 @@
   "item.mechnotury.unit_energy": "能量单元",
   "item.mechnotury.unit_storage": "储存单元",
 
+  "item.mechnotury.steel_sheet": "钢板",
+  "item.mechnotury.silicon_sheet": "硅板",
+
   "block.mechnotury.board_processing": "处理模块",
   "block.mechnotury.board_storage": "储存模块",
 

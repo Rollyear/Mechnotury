@@ -18,6 +18,9 @@
   "item.mechnotury.unit_energy": "Energy Unit",
   "item.mechnotury.unit_storage": "Storage Unit",
 
+  "item.mechnotury.steel_sheet": "Steel Sheet",
+  "item.mechnotury.silicon_sheet": "Silicon Sheet",
+
   "block.mechnotury.board_processing": "Processing Board",
   "block.mechnotury.board_storage": "Storage Board",
 
