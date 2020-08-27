@@ -35,7 +35,7 @@ public class ForgingTable extends Block {
                 .notSolid()
         );
     }
-    //TileEntity
+    //创造TileEntity
     @Override
     public boolean hasTileEntity(BlockState state) {
         return true;
@@ -44,24 +44,31 @@ public class ForgingTable extends Block {
     public TileEntity createTileEntity(BlockState state, IBlockReader world) {
         return new ForgingTableTileEntity();
     }
-    //Voxel Shape
+    //碰撞箱
     private static VoxelShape shape;
     static {
-        VoxelShape topb = Block.makeCuboidShape(1, 14, 1, 15, 15, 15);
-        VoxelShape topc = Block.makeCuboidShape(2, 13, 2, 14, 14, 14);
+        VoxelShape top1 = Block.makeCuboidShape(1, 14, 1, 15, 15, 15);
+        VoxelShape top2 = Block.makeCuboidShape(2, 13, 2, 14, 14, 14);
         VoxelShape pillar= Block.makeCuboidShape(6, 4, 6, 10, 13, 10);
         VoxelShape bottom = Block.makeCuboidShape(4, 3, 4, 12, 4, 12);
         VoxelShape base = Block.makeCuboidShape(3, 0, 3, 13, 3, 13);
-        shape = VoxelShapes.or(topb,topc,pillar,bottom,base);
+        shape = VoxelShapes.or(top1,top2,pillar,bottom,base);
     }
     @Override
     public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
         return shape;
     }
-    //Put and Pop Item
+    //面朝方向设置
     @Override
-    public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos,
-                                             PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
+    protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
+        builder.add(BlockStateProperties.FACING);
+    }
+    public BlockState getStateForPlacement(BlockItemUseContext context) {
+        return getDefaultState().with(BlockStateProperties.FACING, context.getNearestLookingDirection().getOpposite());
+    }
+    //*锻造部分*
+    @Override
+    public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
         if (!worldIn.isRemote && handIn == Hand.MAIN_HAND) {
             ForgingTableTileEntity tileEntity = (ForgingTableTileEntity) Objects.requireNonNull(worldIn.getTileEntity(pos));
             if (player.getItemStackFromSlot(EquipmentSlotType.MAINHAND).isEmpty()) {
@@ -74,14 +81,6 @@ public class ForgingTable extends Block {
             }
         }
         return ActionResultType.SUCCESS;
-    }
-    //Facing State
-    @Override
-    protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-        builder.add(BlockStateProperties.FACING);
-    }
-    public BlockState getStateForPlacement(BlockItemUseContext context) {
-        return getDefaultState().with(BlockStateProperties.FACING, context.getNearestLookingDirection().getOpposite());
     }
 }
 
