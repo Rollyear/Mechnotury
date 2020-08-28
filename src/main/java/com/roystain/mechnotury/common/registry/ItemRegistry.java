@@ -1,5 +1,6 @@
 package com.roystain.mechnotury.common.registry;
 
+import com.roystain.mechnotury.common.Mechnotury;
 import com.roystain.mechnotury.common.group.BasicItem;
 import com.roystain.mechnotury.common.group.Tool;
 import com.roystain.mechnotury.common.item.basicitem.*;
@@ -16,7 +17,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemRegistry {
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, "mechnotury");
+    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Mechnotury.modId);
                   //Block Items
     //Basic Blocks
     public static RegistryObject<Item> steelBlock = ITEMS.register("steel_block", () -> new BlockItem(BlockRegistry.steelBlock.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
