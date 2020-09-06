@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 import java.util.Objects;
 
 public class ForgingTableTileEntity extends TileEntity {
-    //???
+    //存放临时物品的地方
     public ItemStack itemStack = ItemStack.EMPTY;
     //渲染方面的东西
     public ForgingTableTileEntity(){
