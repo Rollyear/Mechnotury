@@ -11,7 +11,6 @@
   "item.mechnotury.initial_space_dome": "初级空间穹顶",
   "item.mechnotury.medium_space_dome": "中级空间穹顶",
   "item.mechnotury.the_greatest_space_dome": "高级空间穹顶",
-  "item.mechnotury.lexicon": "机械纪元辞典",
 
   "item.mechnotury.unit_empty": "空单元",
   "item.mechnotury.unit_reaction": "反应单元",
@@ -44,5 +43,12 @@
 
   "curios.identifier.bracelet":"手环",
 
-  "mechnotury.landing":"你能在机械纪元里找到许多有趣的东西。祝你玩的开心！"
+  "item.mechnotury.mech_lexicon": "机械纪元辞典",
+  "mechnotury.landing":"你能在机械纪元里找到许多有趣的东西。祝你玩的开心！",
+
+  "mechnotury.preface.name": "序言",
+  "mechnotury.preface.desc": "欢迎来到机械纪元!",
+
+  "mechnotury.intro.name": "序言",
+  "mechnotury.intro.text": "欢迎来到机械纪元!这是一个充满奇迹的地方!"
 }

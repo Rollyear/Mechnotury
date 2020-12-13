@@ -11,7 +11,6 @@
   "item.mechnotury.initial_space_dome": "Initial Space Dome",
   "item.mechnotury.medium_space_dome": "Medium Space Dome",
   "item.mechnotury.the_greatest_space_dome": "The Greatest Space Dome",
-  "item.mechnotury.lexicon": "Mechnotury Lexicon",
 
   "item.mechnotury.unit_empty": "Empty Unit",
   "item.mechnotury.unit_reaction": "Reaction Unit",
@@ -44,5 +43,12 @@
 
   "curios.identifier.bracelet":"Bracelet",
 
-  "mechnotury.landing": "You can find tons of interesting things in Mechnotury.Hope you enjoy it!"
+  "item.mechnotury.mech_lexicon": "Mech Lexicon",
+  "mechnotury.landing": "You can find tons of interesting things in Mechnotury.Hope you enjoy it!",
+
+  "mechnotury.preface.name": "Preface",
+  "mechnotury.preface.desc": "Welcome to the Mechnotury!",
+
+  "mechnotury.intro.name": "Intro",
+  "mechnotury.intro.text": "Welcome to the Mechnotury!This is a wonderful world!"
 }

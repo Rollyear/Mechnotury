@@ -3,7 +3,7 @@
   "item.mechnotury.grade1_coarse_silicon": "一級粗矽",
   "item.mechnotury.grade2_coarse_silicon": "二級粗矽",
   "item.mechnotury.nice_silicon": "精矽",
-  "item.mechnotury.moissanite": "穆桑寶石",
+  "item.mechnotury.moissanite": "碳化矽",
 
   "item.mechnotury.cutting_welding_gun": "切焊二合一工具槍",
   "item.mechnotury.steel_hammer": "鋼錘",
@@ -11,7 +11,6 @@
   "item.mechnotury.initial_space_dome": "初級空間穹頂",
   "item.mechnotury.medium_space_dome": "中級空間穹頂",
   "item.mechnotury.the_greatest_space_dome": "高級空間穹頂",
-  "item.mechnotury.lexicon":"機械紀元辭典",
 
   "item.mechnotury.unit_empty": "空單元",
   "item.mechnotury.unit_reaction": "反應單元",
@@ -44,5 +43,6 @@
 
   "curios.identifier.bracelet":"手環",
 
+  "item.mechnotury.lexicon":"機械紀元辭典",
   "mechnotury.landing":"你能在機械紀元里找到許多有趣的東西。祝你玩的開心！"
 }
