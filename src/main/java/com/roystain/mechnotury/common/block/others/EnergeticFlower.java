@@ -16,7 +16,6 @@ public class EnergeticFlower extends Block {
                 .hardnessAndResistance(1f)
                 .hardnessAndResistance(1,1200)
                 .sound(SoundType.PLANT)
-                .lightValue(12)
                 .doesNotBlockMovement()
                 .notSolid()
         );

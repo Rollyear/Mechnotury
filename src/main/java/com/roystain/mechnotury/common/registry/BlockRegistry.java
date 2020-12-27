@@ -1,6 +1,7 @@
 package com.roystain.mechnotury.common.registry;
 
 import com.roystain.mechnotury.common.Mechnotury;
+import com.roystain.mechnotury.common.Utils;
 import com.roystain.mechnotury.common.block.basicblock.MoissaniteOre;
 import com.roystain.mechnotury.common.block.basicblock.SiliconBlock;
 import com.roystain.mechnotury.common.block.basicblock.SteelBlock;
@@ -16,7 +17,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class BlockRegistry {
-    public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Mechnotury.modId);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Utils.MOD_ID);
     //Basic Block
     public static RegistryObject<Block> steelBlock = BLOCKS.register("steel_block", SteelBlock::new);
     public static RegistryObject<Block> siliconBlock = BLOCKS.register("silicon_block", SiliconBlock::new);

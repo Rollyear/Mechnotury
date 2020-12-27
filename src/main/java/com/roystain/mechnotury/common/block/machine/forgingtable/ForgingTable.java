@@ -35,15 +35,6 @@ public class ForgingTable extends Block {
                 .notSolid()
         );
     }
-    //创造TileEntity
-    @Override
-    public boolean hasTileEntity(BlockState state) {
-        return true;
-    }
-    @Override
-    public TileEntity createTileEntity(BlockState state, IBlockReader world) {
-        return new ForgingTableTileEntity();
-    }
     //碰撞箱
     private static VoxelShape shape;
     static {
@@ -65,22 +56,6 @@ public class ForgingTable extends Block {
     }
     public BlockState getStateForPlacement(BlockItemUseContext context) {
         return getDefaultState().with(BlockStateProperties.FACING, context.getNearestLookingDirection().getOpposite());
-    }
-    //*锻造部分*
-    @Override
-    public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
-        if (!worldIn.isRemote && handIn == Hand.MAIN_HAND) {
-            ForgingTableTileEntity tileEntity = (ForgingTableTileEntity) Objects.requireNonNull(worldIn.getTileEntity(pos));
-            if (player.getItemStackFromSlot(EquipmentSlotType.MAINHAND).isEmpty()) {
-                player.setItemStackToSlot(EquipmentSlotType.MAINHAND, tileEntity.pushItemStack());
-            } else if (tileEntity.getItemStack().isEmpty()) {
-                ItemStack putItem = player.getItemStackFromSlot(EquipmentSlotType.MAINHAND).copy();
-                putItem.setCount(1);
-                tileEntity.popItemStack(putItem);
-                player.getItemStackFromSlot(EquipmentSlotType.MAINHAND).shrink(1);
-            }
-        }
-        return ActionResultType.SUCCESS;
     }
 }
 

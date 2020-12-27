@@ -1,0 +1,7 @@
+{
+  "name": "item.mechnotury.mech_lexicon",
+  "landing_text": "mechnotury.landing",
+  "version": "1",
+  "creative_tab": "combat",
+  "book_texture": "patchouli:textures/gui/book_blue.png"
+}

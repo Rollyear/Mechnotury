@@ -1,0 +1,11 @@
+{
+  "name": "mechnotury.intro.name",
+  "icon": "mechnotury:steel_hammer",
+  "category": "preface",
+  "pages": [
+    {
+      "type": "text",
+      "text": "mechnotury.intro.text"
+    }
+  ]
+}
