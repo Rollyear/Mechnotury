@@ -22,6 +22,7 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
 import net.minecraftforge.common.ToolType;
 
+import javax.annotation.Nullable;
 import java.util.Objects;
 
 public class ForgingTable extends Block {
@@ -56,6 +57,16 @@ public class ForgingTable extends Block {
     }
     public BlockState getStateForPlacement(BlockItemUseContext context) {
         return getDefaultState().with(BlockStateProperties.FACING, context.getNearestLookingDirection().getOpposite());
+    }
+    //TileEntity 设置
+    @Override
+    public boolean hasTileEntity(BlockState state) {
+        return true;
+    }
+    @Nullable
+    @Override
+    public TileEntity createTileEntity(BlockState state, IBlockReader world) {
+        return new ForgingTableTileEntity();
     }
 }
 
