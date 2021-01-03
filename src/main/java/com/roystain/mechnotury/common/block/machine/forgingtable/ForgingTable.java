@@ -37,7 +37,7 @@ public class ForgingTable extends Block {
         );
     }
     //碰撞箱
-    private static VoxelShape shape;
+    private static final VoxelShape shape;
     static {
         VoxelShape top1 = Block.makeCuboidShape(1, 14, 1, 15, 15, 15);
         VoxelShape top2 = Block.makeCuboidShape(2, 13, 2, 14, 14, 14);
