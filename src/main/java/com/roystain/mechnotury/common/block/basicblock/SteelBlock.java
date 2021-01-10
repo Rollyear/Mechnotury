@@ -16,7 +16,7 @@ import static net.minecraft.block.SnowBlock.LAYERS;
 
 public class SteelBlock extends Block {
     public SteelBlock() {
-        super(Block.Properties.create(Material.IRON)
+        super(Properties.create(Material.IRON)
                 .hardnessAndResistance(5f)
                 .hardnessAndResistance(5, 1200)
                 .harvestTool(ToolType.PICKAXE)
