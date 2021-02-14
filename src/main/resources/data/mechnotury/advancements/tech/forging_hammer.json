@@ -1,0 +1,35 @@
+{
+  "parent": "mechnotury:tech/smelt_steel",
+  "display": {
+    "icon": {
+      "item": "mechnotury:steel_hammer"
+    },
+    "title": {
+      "translate": "advancements.mechnotury.tech.forging_hammer.title"
+    },
+    "description": {
+      "translate": "advancements.mechnotury.tech.forging_hammer.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "steel_hammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mechnotury:steel_hammer"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "steel_hammer"
+    ]
+  ]
+}

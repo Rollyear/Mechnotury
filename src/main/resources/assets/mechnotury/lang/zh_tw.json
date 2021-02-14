@@ -40,9 +40,17 @@
   "advancements.mechnotury.tech.smelt_steel.description": "冶煉出一塊鋼錠",
   "advancements.mechnotury.tech.forging_table.title": "這是!鑄造台!",
   "advancements.mechnotury.tech.forging_table.description": "製作一個工匠鑄造台",
+  "advancements.mechnotury.tech.forging_hammer.title": "鍛造第一步",
+  "advancements.mechnotury.tech.forging_hammer.description": "製作一把鋼錘",
 
   "curios.identifier.bracelet":"手環",
 
   "item.mechnotury.lexicon":"機械紀元辭典",
-  "mechnotury.landing":"你能在機械紀元里找到許多有趣的東西。祝你玩的開心！"
+  "mechnotury.landing":"你能在機械紀元里找到許多有趣的東西。祝你玩的開心！",
+
+  "mechnotury.preface.name": "序言",
+  "mechnotury.preface.desc": "歡迎來到機械紀元!",
+
+  "mechnotury.intro.name": "序言",
+  "mechnotury.intro.text": "歡迎來到機械紀元!這是一個充滿奇蹟的地方!"
 }
