@@ -20,7 +20,7 @@ public class EnergeticFlower extends Block {
                 .notSolid()
         );
     }
-    private static VoxelShape shape;
+    private static final VoxelShape shape;
     static {
         VoxelShape base = Block.makeCuboidShape(6, 0, 6, 10, 10, 10);
         shape = VoxelShapes.or(base);
