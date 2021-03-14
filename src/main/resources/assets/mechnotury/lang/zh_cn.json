@@ -1,38 +1,39 @@
 {
+
+  "_": "->------------------------]  Game Elements  [------------------------<-",
+
   "item.mechnotury.steel_ingot":"钢锭",
   "item.mechnotury.grade1_coarse_silicon": "一级粗硅",
   "item.mechnotury.grade2_coarse_silicon": "二级粗硅",
   "item.mechnotury.nice_silicon": "精硅",
   "item.mechnotury.moissanite": "碳化硅",
-
   "item.mechnotury.cutting_welding_gun": "切焊二合一工具枪",
   "item.mechnotury.steel_hammer": "钢锤",
   "item.mechnotury.welder_mask":"焊工面罩",
   "item.mechnotury.initial_space_dome": "初级空间穹顶",
   "item.mechnotury.medium_space_dome": "中级空间穹顶",
   "item.mechnotury.the_greatest_space_dome": "高级空间穹顶",
-
   "item.mechnotury.unit_empty": "空单元",
   "item.mechnotury.unit_reaction": "反应单元",
   "item.mechnotury.unit_energy": "能量单元",
   "item.mechnotury.unit_storage": "储存单元",
-
   "item.mechnotury.steel_sheet": "钢板",
   "item.mechnotury.silicon_sheet": "硅板",
+  "item.mechnotury.mech_lexicon": "机械纪元辞典",
 
   "block.mechnotury.board_processing": "处理模块",
   "block.mechnotury.board_storage": "储存模块",
-
   "block.mechnotury.steel_block":"钢块",
   "block.mechnotury.silicon_block" :"硅块",
   "block.mechnotury.energetic_flower": "充满能量的花",
   "block.mechnotury.moissanite_ore": "穆桑石",
-
   "block.mechnotury.forging_table" : "工匠铸造台",
 
   "itemGroup.mechnotury": "机械纪元",
   "itemGroup.basic_item_group": "机械纪元基础物品",
   "itemGroup.tool_group": "机械纪元工具",
+
+  "_": "->------------------------]  Advancements  [------------------------<-",
 
   "advancements.mechnotury.tech.root.title": "机械纪元",
   "advancements.mechnotury.tech.root.description":"机械纪元,一个充满奇迹的地方",
@@ -45,12 +46,11 @@
 
   "curios.identifier.bracelet":"手环",
 
-  "item.mechnotury.mech_lexicon": "机械纪元辞典",
-  "mechnotury.landing":"你能在机械纪元里找到许多有趣的东西。祝你玩的开心！",
+  "_": "->------------------------]  UI & Messages  [------------------------<-",
 
+  "mechnotury.landing":"你能在机械纪元里找到许多有趣的东西。祝你玩的开心！",
   "mechnotury.preface.name": "序言",
   "mechnotury.preface.desc": "欢迎来到机械纪元!",
-
   "mechnotury.intro.name": "序言",
   "mechnotury.intro.text": "欢迎来到机械纪元!这是一个充满奇迹的地方!"
 }

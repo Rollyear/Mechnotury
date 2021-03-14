@@ -1,38 +1,39 @@
 {
+
+  "_": "->------------------------]  Game Elements  [------------------------<-",
+
   "item.mechnotury.steel_ingot":"Steel Ingot",
   "item.mechnotury.grade1_coarse_silicon": "Grade1 Coarse Silicon",
   "item.mechnotury.grade2_coarse_silicon": "Grade2 Coarse Silicon",
   "item.mechnotury.nice_silicon": "Nice Silicon",
   "item.mechnotury.moissanite": "Moissanite",
-
   "item.mechnotury.cutting_welding_gun":"Cutting and Welding Gun ",
   "item.mechnotury.steel_hammer": "Steel Hammer",
   "item.mechnotury.welder_mask":"Welder Mask",
   "item.mechnotury.initial_space_dome": "Initial Space Dome",
   "item.mechnotury.medium_space_dome": "Medium Space Dome",
   "item.mechnotury.the_greatest_space_dome": "The Greatest Space Dome",
-
   "item.mechnotury.unit_empty": "Empty Unit",
   "item.mechnotury.unit_reaction": "Reaction Unit",
   "item.mechnotury.unit_energy": "Energy Unit",
   "item.mechnotury.unit_storage": "Storage Unit",
-
   "item.mechnotury.steel_sheet": "Steel Sheet",
   "item.mechnotury.silicon_sheet": "Silicon Sheet",
+  "item.mechnotury.mech_lexicon": "Mech Lexicon",
 
   "block.mechnotury.board_processing": "Processing Board",
   "block.mechnotury.board_storage": "Storage Board",
-
   "block.mechnotury.steel_block": "Steel Block",
   "block.mechnotury.silicon_block" : "Silicon Block",
   "block.mechnotury.energetic_flower": "Energetic Flower",
   "block.mechnotury.moissanite_ore": "Moissanite Ore",
-
   "block.mechnotury.forging_table" : "Forging Table",
 
   "itemGroup.mechnotury": "Mechnotury",
   "itemGroup.basic_item_group":"Mechnotury's Basic Items",
   "itemGroup.tool_group": "Mechnotury's Tools",
+
+  "_": "->------------------------]  Advancements  [------------------------<-",
 
   "advancements.mechnotury.tech.root.title": "Mechnotury",
   "advancements.mechnotury.tech.root.description":"Mechnotury，a place filled with Miracles",
@@ -45,12 +46,11 @@
 
   "curios.identifier.bracelet":"Bracelet",
 
-  "item.mechnotury.mech_lexicon": "Mech Lexicon",
-  "mechnotury.landing": "You can find tons of interesting things in Mechnotury.Hope you enjoy it!",
+  "_": "->------------------------]  UI & Messages  [------------------------<-",
 
+  "mechnotury.landing": "You can find tons of interesting things in Mechnotury.Hope you enjoy it!",
   "mechnotury.preface.name": "Preface",
   "mechnotury.preface.desc": "Welcome to the Mechnotury!",
-
   "mechnotury.intro.name": "Intro",
   "mechnotury.intro.text": "Welcome to the Mechnotury!This is a wonderful world!"
 }
